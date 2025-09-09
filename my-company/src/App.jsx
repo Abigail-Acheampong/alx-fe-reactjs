@@ -3,16 +3,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
-      <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/services">Services</Link> |{" "}
-        <Link to="/contact">Contact</Link>
-      </nav>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
