@@ -16,4 +16,4 @@
     );
   };
 
-export { RecipeList };
+export default RecipeList;

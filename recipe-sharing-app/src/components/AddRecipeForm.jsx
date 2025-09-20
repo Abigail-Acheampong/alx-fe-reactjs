@@ -32,4 +32,4 @@
     );
   };
 
-export { AddRecipeForm };
+export default AddRecipeForm;
